@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,7 +50,6 @@
 				706C83F18B80C7705C4F3734 /* Pods-MicroInsta.debug.xcconfig */,
 				3F80C6E5259BD7B4E90BD3DC /* Pods-MicroInsta.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
