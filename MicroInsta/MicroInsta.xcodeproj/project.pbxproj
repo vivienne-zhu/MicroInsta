@@ -14,8 +14,27 @@
 		23A33E2C2490BE1200FC487E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A33E2B2490BE1200FC487E /* Assets.xcassets */; };
 		23A33E2F2490BE1200FC487E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A33E2D2490BE1200FC487E /* LaunchScreen.storyboard */; };
 		23AD32A72490BED3003F714D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23AD32A62490BED3003F714D /* GoogleService-Info.plist */; };
-		C1FBF33C85930CB023F993F3 /* Pods_MicroInsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88F8A7121AC009A3ABA1651 /* Pods_MicroInsta.framework */; };
+		23AD32AF2491AD68003F714D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD32AE2491AD68003F714D /* FeedViewController.swift */; };
+		23AD32B12491AE77003F714D /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD32B02491AE77003F714D /* UploadViewController.swift */; };
+		23AD32B32491AE8B003F714D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD32B22491AE8B003F714D /* SettingsViewController.swift */; };
+		23AD32B52491C099003F714D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD32B42491C099003F714D /* RegisterViewController.swift */; };
+		23AD32B62491D375003F714D /* Pods_MicroInsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88F8A7121AC009A3ABA1651 /* Pods_MicroInsta.framework */; };
+		23AD32B72491D375003F714D /* Pods_MicroInsta.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C88F8A7121AC009A3ABA1651 /* Pods_MicroInsta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23AD32B82491D375003F714D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23AD32B72491D375003F714D /* Pods_MicroInsta.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		23A33E1F2490BE1100FC487E /* MicroInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +46,10 @@
 		23A33E2E2490BE1200FC487E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23A33E302490BE1200FC487E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23AD32A62490BED3003F714D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23AD32AE2491AD68003F714D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		23AD32B02491AE77003F714D /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		23AD32B22491AE8B003F714D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		23AD32B42491C099003F714D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3F80C6E5259BD7B4E90BD3DC /* Pods-MicroInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroInsta.release.xcconfig"; path = "Target Support Files/Pods-MicroInsta/Pods-MicroInsta.release.xcconfig"; sourceTree = "<group>"; };
 		706C83F18B80C7705C4F3734 /* Pods-MicroInsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroInsta.debug.xcconfig"; path = "Target Support Files/Pods-MicroInsta/Pods-MicroInsta.debug.xcconfig"; sourceTree = "<group>"; };
 		C88F8A7121AC009A3ABA1651 /* Pods_MicroInsta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroInsta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1FBF33C85930CB023F993F3 /* Pods_MicroInsta.framework in Frameworks */,
+				23AD32B62491D375003F714D /* Pods_MicroInsta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +100,12 @@
 				23A33E222490BE1100FC487E /* AppDelegate.swift */,
 				23AD32A62490BED3003F714D /* GoogleService-Info.plist */,
 				23A33E242490BE1100FC487E /* SceneDelegate.swift */,
-				23A33E262490BE1100FC487E /* ViewController.swift */,
 				23A33E282490BE1100FC487E /* Main.storyboard */,
+				23A33E262490BE1100FC487E /* ViewController.swift */,
+				23AD32B42491C099003F714D /* RegisterViewController.swift */,
+				23AD32AE2491AD68003F714D /* FeedViewController.swift */,
+				23AD32B02491AE77003F714D /* UploadViewController.swift */,
+				23AD32B22491AE8B003F714D /* SettingsViewController.swift */,
 				23A33E2B2490BE1200FC487E /* Assets.xcassets */,
 				23A33E2D2490BE1200FC487E /* LaunchScreen.storyboard */,
 				23A33E302490BE1200FC487E /* Info.plist */,
@@ -106,6 +133,7 @@
 				23A33E1C2490BE1100FC487E /* Frameworks */,
 				23A33E1D2490BE1100FC487E /* Resources */,
 				AF54CD720DC31317114BE4E6 /* [CP] Embed Pods Frameworks */,
+				23AD32B82491D375003F714D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,8 +239,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A33E272490BE1100FC487E /* ViewController.swift in Sources */,
+				23AD32B12491AE77003F714D /* UploadViewController.swift in Sources */,
+				23AD32B52491C099003F714D /* RegisterViewController.swift in Sources */,
 				23A33E232490BE1100FC487E /* AppDelegate.swift in Sources */,
 				23A33E252490BE1100FC487E /* SceneDelegate.swift in Sources */,
+				23AD32AF2491AD68003F714D /* FeedViewController.swift in Sources */,
+				23AD32B32491AE8B003F714D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
