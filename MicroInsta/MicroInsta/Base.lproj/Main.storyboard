@@ -168,7 +168,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q8i-vo-qnx">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Beige and Gray Minimalist Quote Instagram Post" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q8i-vo-qnx">
                                 <rect key="frame" x="87" y="118" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -192,6 +192,9 @@
                         <viewLayoutGuide key="safeArea" id="8QE-eQ-iVI"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Upload" image="square.and.arrow.up.on.square" catalog="system" id="dpC-6W-9Dj"/>
+                    <connections>
+                        <outlet property="imageView" destination="Q8i-vo-qnx" id="PcV-tT-W5T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GpC-HR-0PF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -223,7 +226,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="person.crop.square.fill" catalog="system" id="cW5-fi-l93"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toViewController" id="Dvf-YA-24m"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toViewController" modalPresentationStyle="fullScreen" id="Dvf-YA-24m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVl-iR-s2s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -268,11 +271,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Beige and Gray Minimalist Quote Instagram Post" width="1080" height="1080"/>
         <image name="person.crop.square.fill" catalog="system" width="64" height="56"/>
         <image name="square.and.arrow.up.on.square" catalog="system" width="58" height="64"/>
         <image name="tray" catalog="system" width="64" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ydh-qJ-oii"/>
+        <segue reference="Dvf-YA-24m"/>
     </inferredMetricsTieBreakers>
 </document>
