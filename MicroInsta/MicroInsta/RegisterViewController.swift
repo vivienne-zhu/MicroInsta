@@ -17,6 +17,8 @@ class RegisterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        passwordText.isSecureTextEntry = true;
 
         // Do any additional setup after loading the view.
     }
