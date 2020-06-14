@@ -20,6 +20,7 @@
 		23AD32B52491C099003F714D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD32B42491C099003F714D /* RegisterViewController.swift */; };
 		23AD32B62491D375003F714D /* Pods_MicroInsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88F8A7121AC009A3ABA1651 /* Pods_MicroInsta.framework */; };
 		23AD32B72491D375003F714D /* Pods_MicroInsta.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C88F8A7121AC009A3ABA1651 /* Pods_MicroInsta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23DD833F2495DD8D0004FCDB /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DD833E2495DD8D0004FCDB /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,7 @@
 		23AD32B02491AE77003F714D /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		23AD32B22491AE8B003F714D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		23AD32B42491C099003F714D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		23DD833E2495DD8D0004FCDB /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		3F80C6E5259BD7B4E90BD3DC /* Pods-MicroInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroInsta.release.xcconfig"; path = "Target Support Files/Pods-MicroInsta/Pods-MicroInsta.release.xcconfig"; sourceTree = "<group>"; };
 		706C83F18B80C7705C4F3734 /* Pods-MicroInsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroInsta.debug.xcconfig"; path = "Target Support Files/Pods-MicroInsta/Pods-MicroInsta.debug.xcconfig"; sourceTree = "<group>"; };
 		C88F8A7121AC009A3ABA1651 /* Pods_MicroInsta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroInsta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 		23A33E212490BE1100FC487E /* MicroInsta */ = {
 			isa = PBXGroup;
 			children = (
+				23DD833E2495DD8D0004FCDB /* UIViewControllerExtension.swift */,
 				23A33E222490BE1100FC487E /* AppDelegate.swift */,
 				23AD32A62490BED3003F714D /* GoogleService-Info.plist */,
 				23A33E242490BE1100FC487E /* SceneDelegate.swift */,
@@ -242,6 +245,7 @@
 				23AD32B12491AE77003F714D /* UploadViewController.swift in Sources */,
 				23AD32B52491C099003F714D /* RegisterViewController.swift in Sources */,
 				23A33E232490BE1100FC487E /* AppDelegate.swift in Sources */,
+				23DD833F2495DD8D0004FCDB /* UIViewControllerExtension.swift in Sources */,
 				23A33E252490BE1100FC487E /* SceneDelegate.swift in Sources */,
 				23AD32AF2491AD68003F714D /* FeedViewController.swift in Sources */,
 				23AD32B32491AE8B003F714D /* SettingsViewController.swift in Sources */,
